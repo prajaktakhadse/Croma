@@ -1,0 +1,261 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* ------------------------------------ */
+
+/* .nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+} */
+
+/* ------------------------------------ */
+
+/* TOP NAVBAR */
+#nav-top {
+  /* border: 1px solid red; */
+  background-color: black;
+  padding-top: 10px;
+  height: 70px;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+
+/* Left top nav */
+#nav-top-left video {
+  width: 100px;
+  height: 50px;
+}
+
+.dropbtn {
+  background-color: black;
+  color: white;
+
+  vertical-align: top;
+  margin-left: 0px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 40px;
+  padding-top: 20px;
+  vertical-align: top;
+}
+#nav-top-left .dropdown img {
+  width: 30px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #121212;
+  min-width: 250px;
+  z-index: 1;
+  margin-left: -100px;
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.dropdown-content a,
+h3 {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  color: teal;
+  background-color: #e6f6f0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+.more-dropdown-content-tele {
+  display: none;
+  position: absolute;
+  position: absolute;
+  background-color: #121212;
+  color: white;
+  min-width: 400px;
+  z-index: 1;
+  margin: 20px 0px 0px 150px;
+  padding: 12px 16px;
+  /* height: 500px; */
+  /* overflow-y: scroll; */
+}
+.dropdown:hover .more-dropdown-content-tele {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+.more-dropdown-content-tele a {
+  display: block;
+  margin-top: 5px;
+}
+
+.more-dropdown-content-tele-left {
+  border: 1px solid yellow;
+  margin-right: 20px;
+}
+
+/* Center top nav */
+#nav-top-center {
+  display: flex;
+}
+#nav-top-center input {
+  height: 40px;
+  width: 500px;
+  margin-top: 10px;
+  padding-left: 20px;
+  border: none;
+  border-radius: 10px;
+}
+#nav-top-center input:focus {
+  outline: none;
+}
+#nav-search-icon {
+  margin-top: 20px;
+  margin-left: -30px;
+}
+
+/* Right top nav */
+#nav-top-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#nav-location {
+  color: white;
+  margin-left: 20px;
+}
+#nav-login {
+  margin-left: 20px;
+}
+#nav-cart {
+  margin-left: 20px;
+}
+/* ------------------------------------ */
+
+/* BOTTOM NAVBAR */
+/* #nav-bottom {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  background-color: #353535;
+  font-size: 14px;
+}
+
+#nav-bottom a {
+  display: flex;
+  color: white;
+  padding-top: 5px;
+}
+#nav-bottom img {
+  height: 80%;
+}
+#nav-bottom p {
+  width: 120px;
+  margin-bottom: 0px;
+  margin-left: 5px;
+} */
+
+#nav-bottom {
+  /* border: 1px solid red; */
+  background-color: #353535;
+  height: 60px;
+}
+
+#nav-bottom .carousel {
+  width: 90%;
+  margin: auto;
+  /* margin-right: 10%; */
+  /* margin-left: 10%; */
+  margin-bottom: 20px;
+}
+
+#nav-bottom .flickity-prev-next-button {
+  top: 50%;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: none;
+  color: black;
+  margin-right: -45px;
+  transform: translateY(-50%);
+}
+
+#navbar #nav-bottom .carousel .flickity-prev-next-button {
+  color: white;
+  background-color: transparent;
+}
+
+#nav-bottom .flickity-prev-next-button.previous {
+  left: 10px;
+  margin-left: -45px;
+}
+
+#nav-bottom .flickity-prev-next-button.next {
+  right: 10px;
+}
+#nav-bottom .flickity-rtl .flickity-prev-next-button.previous {
+  left: auto;
+  right: 10px;
+}
+#nav-bottom .flickity-rtl .flickity-prev-next-button.next {
+  right: auto;
+  left: 10px;
+}
+#nav-bottom .flickity-prev-next-button .flickity-button-icon {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  width: 60%;
+  height: 60%;
+}
+#nav-bottom .flickity-page-dots {
+  /* position: absolute;
+  width: 100%;
+  bottom: -25px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  line-height: 1; */
+  display: none;
+}
+#nav-bottom .flickity-viewport {
+  background-color: #353535;
+}
+
+/* cell number */
+#nav-bottom .carousel-cell:before {
+  display: block;
+}
+#nav-bottom .carousel-cell {
+  width: 20%;
+  background-color: #353535;
+}
+#nav-bottom .carousel-cell a {
+  display: flex;
+}
+#nav-bottom .carousel-cell p {
+  margin-left: 10px;
+  margin-top: 20px;
+  color: white;
+}
+
+/* ------------------------------------ */

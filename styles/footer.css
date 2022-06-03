@@ -1,0 +1,136 @@
+#footer{
+    display:flex;
+    width:100%;
+    height: 450px;
+    background-color: rgb(39, 38, 38);
+}
+#footer > .bs-footer{
+    display : flex;
+}
+.bs-footer{
+    width:100%;
+    height:450px;
+}
+.line{
+    height:350px;
+    width:0%;
+    border:1px solid whitesmoke;
+   margin-top: 50px;
+ }
+ #footer1{
+     height:350px;
+     width:70%;
+     
+     margin-left: 100px;
+     margin-top: 50px;
+ }
+ #button{
+     display:flex;
+     height:50px;
+     width:90%;
+     margin-top: 4px;
+     border-radius: 10px;
+     background-color: white;
+     
+ }
+ #button > div{
+     display:flex;
+
+ }
+ #input{
+     height:50px;
+     width:100%;
+     border:1px solid white;
+     border-radius:10px 10px 0px 10px;
+     outline: none;
+     font-family: "Gotham",serif;
+     color:black;
+     font-size: 17px;
+     font-weight: 400;
+     text-underline-offset: none;
+     
+ }
+ #btn{
+     height:50px;
+     width:100%;
+     background-color: white;
+     border-radius:0px 10px 10px 0px;
+     border:none;
+     font-size: 20px;
+     
+ }
+ #input::placeholder{
+     color: #b1b1b1;
+     font-size: 17px;
+     padding-left: 15px;
+     
+ }
+ #logo{
+     height:50px;
+     width:75%;
+     
+     margin-top: 20px;
+     display:flex;
+     justify-content: space-evenly;
+ }
+ .footer2{
+     display:flex;
+     height:350px;
+     width:100%;
+     margin-top:50px;
+     
+ }
+ #usefullinks{
+     height: 40px;
+     width:100%;
+     
+ }
+ .logoimg{
+     width:15%;
+     height:30px;
+     border :1px solid white
+ }
+
+ 
+ 
+ #copyrighttext{
+  height:50px;
+     width:95%;
+     
+     margin-top: 20px;
+
+ }
+ .copywrite {
+      font-size: 15px;
+      letter-spacing: 0px;
+      color: #f7f7f7;
+      font-family: 'Zen Kaku Gothic Antique', sans-serif;
+ }
+ .links{
+    height:350px;
+     width:49%;
+     margin-top:0px;
+ }
+ #atext{
+  font-size: 15px;
+
+color: #f7f7f7;
+font-weight: 700;
+text-transform: capitalize;
+transition: all .3s ease;
+}
+.ptext{
+ color:white; font-family: 'Zen Kaku Gothic Antique', sans-serif;
+ font-size: 17px;
+ margin-left:54px;
+ cursor: pointer;
+ 
+}
+.ptext:hover {
+color: #49a5a2
+}
+.footer-icons>span>i{
+    color: white;
+    margin-right: 20px;
+    margin-top: 16px;
+}

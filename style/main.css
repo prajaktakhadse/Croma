@@ -1,0 +1,176 @@
+#footer{
+    display:flex;
+    width:100%;
+    height: 450px;
+    background-color: rgb(39, 38, 38);
+}
+#footer > .bs-footer{
+    display : flex;
+}
+.bs-footer{
+    width:100%;
+    height:450px;
+}
+.line{
+    height:350px;
+    width:0%;
+    border:1px solid whitesmoke;
+   margin-top: 50px;
+ }
+ #footer1{
+     height:350px;
+     width:70%;
+     
+     margin-left: 100px;
+     margin-top: 50px;
+ }
+ #button{
+     display:flex;
+     height:50px;
+     width:90%;
+     margin-top: -20px;
+     border-radius: 10px;
+     background-color: white;
+     
+ }
+ #button > div{
+     display:flex;
+
+ }
+ #input{
+     height:50px;
+     width:100%;
+     border:1px solid white;
+     border-radius:10px 10px 0px 10px;
+     
+ }
+ #btn{
+     height:54px;
+     width:100%;
+     background-color: white;
+     border-radius:0px 10px 10px 0px;
+     border:none;
+     font-size: 20px;
+ }
+ #input::placeholder{
+     color: #b1b1b1;
+     font-size: 15px;
+     padding-left: 15px;
+ }
+ #logo{
+     height:50px;
+     width:75%;
+     
+     margin-top: 20px;
+     display:flex;
+     justify-content: space-evenly;
+ }
+ .footer2{
+     display:flex;
+     height:350px;
+     width:100%;
+     margin-top:50px;
+     
+ }
+ #usefullinks{
+     height: 40px;
+     width:100%;
+     
+ }
+ .logoimg{
+     width:15%;
+     height:30px;
+     border :1px solid white
+ }
+ img{
+  height:48px;
+ }
+ 
+ 
+ #copyrighttext{
+  height:50px;
+     width:75%;
+     
+     margin-top: 20px;
+
+ }
+ .copywrite {
+      font-size: 15px;
+      letter-spacing: .2px;
+      color: #f7f7f7;
+      font-family: 'Zen Kaku Gothic Antique', sans-serif;
+ }
+ .links{
+   
+     height:350px;
+     width:49%;
+     
+     margin-top:0px;
+ }
+ a{
+  font-size: 15px;
+
+color: #f7f7f7;
+font-weight: 700;
+text-transform: capitalize;
+transition: all .3s ease;
+}
+.p{
+ color:white; font-family: 'Zen Kaku Gothic Antique', sans-serif;
+ font-size: 17px;
+ margin-left:54px;
+ cursor: pointer;
+ 
+}
+p:hover {
+color: #49a5a2
+}
+
+
+
+<div class="address-details">
+                          <div class="input-box">
+                              <span class="details">Full Name</span>
+                              <input type="text" placeholder="Enter Full Name"/>
+                          </div>
+                          <div class="input-box">
+                            <span class="details">Full Name</span>
+                            <input type="text" placeholder="Enter Full Name"/>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Full Name</span>
+                            <input type="text" placeholder="Enter Full Name"/>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Full Name</span>
+                            <input type="text" placeholder="Enter Full Name"/>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Full Name</span>
+                            <input type="text" placeholder="Enter Full Name"/>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Full Name</span>
+                            <input type="text" placeholder="Enter Full Name"/>
+                        </div>
+                       </div>
+                       <div class="address-type">
+                           <span id="address-type">Address Type</span>
+                           <div id="type">
+                               <label for="">
+                                   <span class="dot one"></span>
+                                   <span class="type">Home</span>
+                               </label>
+                               <label for="">
+                                <span class="dot one"></span>
+                                <span class="type">Work</span>
+                            </label>
+                            <label for="">
+                                <span class="dot one"></span>
+                                <span class="type">Other</span>
+                            </label>
+                           </div>
+                       </div>
+                       <div class="button">
+                           <input type="text" name="" value="Save"/>
+                       </div>

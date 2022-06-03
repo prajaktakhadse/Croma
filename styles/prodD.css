@@ -1,0 +1,664 @@
+body {
+    line-height: 1.5;
+    font-family: sans-serif;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+* {
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+/*responsive*/
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
+
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container1 {
+    padding: 2px 8px;
+
+}
+
+#image1 {
+    background-image: url("https://i.postimg.cc/XYQLVdkh/241953-wmcume.png");
+    height: 65%;
+    width: 100%;
+    border-radius: 3px;
+    text-align: right;
+}
+
+.big_container {
+
+    display: flex;
+
+    height: 90%;
+    width: 100%;
+
+}
+
+#container {
+    width: 92%;
+    height: 35%;
+    overflow-x: hidden;
+    margin: 5% 5%;
+
+    border: 1px solid green;
+
+} */
+
+ #content {
+    width: 200%;
+    height: 40%;
+    overflow-y: hidden;
+    position: relative;
+}
+
+#content {
+    display: flex;
+}
+
+#content>div {
+    width: 80%;
+    height: 350px;
+    margin: 0.4%;
+    border-radius: 8px;
+    box-shadow: 1px 1px 16px 1px rgb(231, 224, 224);
+    border: 0.5px rgb(231, 224, 224);
+}
+
+#leftArrow {
+
+    width: 3%;
+    display: inline-block;
+}
+
+#rightArrow {
+
+    width: 3%;
+    display: inline-block;
+} 
+
+#leftArrow button,
+#rightArrow button {
+
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.pre,
+.nex {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+
+}
+
+
+.nex {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    margin-right: -2%;
+}
+
+.pre {
+    margin-left: 1%;
+}
+
+.mySlides {
+    display: none;
+
+    text-align: center;
+}
+#sp-price-striked{
+    display: inline;
+    font: size 19px;
+    color: red;
+}
+
+
+
+
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.hc {
+
+    margin-top: 9%;
+}
+
+
+#bottomtext {
+    line-height: 25px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-left: 2%;
+
+}
+
+#sp-outer-box {
+    width: 1389px;
+    height: 600px;
+
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+#sp-right-box {
+    width: 42.8%;
+    height: 100%;
+    margin-top: 10%;
+    overflow-y: scroll;
+    margin-left: 4.2%;
+
+    display: inline-block;
+}
+
+#sp-left-box {
+    width: 42%;
+    height: 100%;
+
+    display: inline-block;
+    margin-left: -4%;
+    margin-top: 10%;
+    vertical-align: top;
+}
+
+#sp-product-name {
+    font-size: 145%;
+line-height: 145%;
+font-weight: 700;
+margin: -1% 0% 1% -1%;
+padding: 1% 1%;
+} 
+
+
+.sp-product-id {
+
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 1rem;
+    padding: 1% 3%;
+}
+
+#sp-review-text {
+    font-size: 80%;
+
+    vertical-align: text-top;
+    margin-left: 10px;
+}
+
+#sp-price-box {
+    margin-top: 2%;
+    font-weight: 700;
+
+    font-size: 2.4rem;
+    line-height: normal;
+    width: 185px;
+}
+
+
+.sp-tax-text {
+    font-size: 80%;
+    vertical-align: text-top;
+}
+
+.sp-emi-amount {
+    padding-right: 3%;
+    font-size: 80%;
+    vertical-align: text-top;
+    text-align: center;
+}
+
+#sp-emi-info {
+    font-size: 100%;
+    padding-left: 2%;
+    margin: 1% -2%;
+}
+
+.sp-display-flex {
+    display: flex;
+    flex-direction: row;
+    padding-left: 2.5%;
+    width: 120%;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: normal;
+    margin-bottom: 2%;
+}
+
+.sp-extra-savings {
+    margin-left: 1%;
+    font-size: 120%;
+    font-family: PTSerif-Bold;
+}
+
+.sp-offer-number-text {
+    margin-left: 1%;
+    font-size: 100%;
+    margin-left: 7px;
+letter-spacing: .4px;
+}
+
+#sp-view-all-offers {
+    margin-left: 3%;
+font-size: 1.3rem;
+    text-decoration: underline;
+    color: #00e9bf;
+}
+
+.sp-offer-checkbox {
+    height: 7.7%;
+    width: 3.7%;
+    margin-left: 3%;
+    
+margin: 4px 5px -2px 17px;
+width: 3.7%;
+margin-left: 0%;
+vertical-align: middle;
+}
+
+
+.sp-offer-text {
+    font-size: 80%;
+}
+
+.sp-opt-list {
+    width: 70%;
+    height: 23%;
+    margin: 1% 2% 4% -11%;
+
+}
+
+.sp-dashed {
+    border: 1px dashed #66666666;
+    margin: 3%;
+}
+
+.sp-bank-offer-text {
+    margin-left: 1%;
+    font-size: 80%;
+    padding-right: 1%;
+}
+
+.sp-icici-logo {
+    vertical-align: middle;
+    /* width: 2%; 
+    height: 1%;  */
+    /* padding-left: 5%; */
+}
+
+hr {
+    width: 95%;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+#sp-delivery-options-box {
+    width: 90%;
+    height: 20%;
+    margin: 6% 6%;
+    border-radius: 4px;
+
+}
+
+.sp-del-header {
+    padding: 6% 5%;
+    font-family: PT Serif;
+    font-size: 130%;
+}
+
+.sp-shield-logo {
+    margin-left: 6%;
+    vertical-align: middle;
+}
+
+.sp-zip-text {
+    margin-left: 1%;
+    font-family: PT Serif;
+    font-size: 130%;
+}
+
+.sp-radio-button {
+    vertical-align: middle;
+    margin-left: 6%;
+}
+
+.sp-warranty-period {
+    margin: 2%;
+}
+
+label {
+    display: block;
+    margin: 2%;
+}
+
+.sp-warranty-period-text {
+    font-size: 90%;
+}
+
+.sp-info-icon {
+    vertical-align: middle;
+}
+
+.sp-add-to-cart-btn {
+    width: 80%;
+    height: 45%;
+    margin: 4% 12%;
+    padding: 1%;
+    cursor: pointer;
+}
+
+.sp-add-to-cart {
+    cursor: pointer;
+    width: 45%;
+    height: 15%;
+    border-radius: 8px;
+    background-color: aqua;
+    border: 1px solid rgb(59, 53, 53);
+    
+    
+}
+
+.sp-buy-now {
+    cursor: pointer;
+    width: 40%;
+    height: 15%;
+    margin-left: 8%;
+    border-radius: 8px;
+    border: 1px solid rgb(59, 53, 53);
+    background-color: black;
+    color: wheat;
+}
+
+.sp-add-to-cart:hover {
+    box-shadow: 2% #7c7979;
+}
+
+.sp-rupee-icon {
+    padding-left: 1.4%;
+    width: 2%;
+    height: 1%;
+}
+
+/* image zoomer */
+
+.sp-container {
+    width: 390px;
+    height: 390px;
+    position: relative;
+    margin: 20% 22%;
+}
+
+#sp-image {
+    width: 100%;
+    height: auto;
+    margin-top: -100px;
+}
+
+.sp-lens {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+}
+
+.sp-result {
+    position: absolute;
+    left: calc(100% + 50px);
+    top: 30px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+
+/* key features */
+
+#sp-details {
+    margin: auto;
+
+}
+
+details {
+
+    width: 1026px;
+    border: 1px solid rgb(104 89 89);
+    margin: 1% 7%;
+}
+
+@keyframes details-show {
+    from {
+        opacity: 0;
+        transform: var(--details-translate, translateY(-0.9em));
+    }
+}
+
+details[open]>*:not(summary) {
+    animation: details-show 180ms ease-in-out;
+}
+
+details>summary {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 1.2%;
+    font-size: 22px;
+}
+
+details>summary::after {
+    content: url(icons8-expand-arrow-30.png);
+    width: 35px;
+    height: 38px;
+    display: inline-flex;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+}
+
+details[open]>summary::after {
+    transform: rotate(180deg);
+}
+
+details>summary::-webkit-details-marker {
+    display: none;
+}
+
+p {
+    margin: 3%;
+}
+
+ul {
+    margin: 2%;
+    font-size: 16px;
+}
+
+li {
+    line-height: 28px;
+}
+
+.pd-tag-wrapper .pd-tag {
+    width: 43%;
+    display: block;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 0.8rem 1rem;
+    font-weight: 700;
+    color: #ff02b9;
+    border: 1px solid #ff02b9;
+    margin: -24px 3px 0px;
+}
+#exchange{
+font-size: 1.3rem;
+color: #00e9bf;
+font-weight: 500;
+text-decoration: underline;
+line-height: 2rem;
+}
+.sp-emi-options{
+    font-size:105%;
+text-decoration: underline;
+color:#00e9bf;
+}
+
+  /* * {
+    font-family: "Gotham", sans-serif;
+    color: #ffffff;
+    transition: 0.5s;
+
+  } */
+
+ 
+  .flex {
+    display: flex;
+    
+  }
+  .flexV {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #cardPro {
+    
+    width: 75%;
+    margin: 0px -93px;
+
+  }
+ 
+
+ 
+
+  .controlCard {
+    display: flex;
+    justify-content: space-between;
+  }
+  .controlCard > h2 {
+    margin: 2% 2%;
+  }
+  .controlCard > button {
+    font-size: 28px;
+    font-weight: 900;
+    background: none;
+    border: none;
+    margin: 2%;
+  }
+  
+
+  .off {
+    display: none !important;
+  }
+  input[type="radio"] {
+    color: unset;
+    background: unset;
+    width: unset;
+    height: unset;
+    border-radius: unset;
+    font-size: unset;
+    border: unset;
+  }
+  #emCart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #emOne {
+    margin: 5px;
+    font-weight: 300;
+    font-size: 30px;
+  }
+  #emTree {
+    color: #00e9bf;
+    font-weight: bold;
+  }
+  .rotate {
+    transform: rotate(180deg);
+    color: #00e9bf;
+  } 
+  .card:hover {
+    border: solid 1px #00e9bf;
+    transform: scale(1.05);
+  }
+  .proCard:hover {
+    border: solid 1px #00e9bf;
+    transform: scale(1.05);
+  } 
+  #Card_no{
+      text-align: center;
+      width:85%
+  }
+  
+  /* animantion */
+  @media screen and (max-width: 1024px) {
+    #subDiv {
+      flex-direction: column;
+    }
+    #cardPro {
+      width: 100%;
+    }
+    #sideData {
+      width: 100%;
+    }
+  }
+    .card {
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+        transition: 0.3s;
+        width: 89%;
+        border: 1px solid #09eaab;
+        border-radius: 3px;
+        margin: 40px 0px 5px 470px;
+    }

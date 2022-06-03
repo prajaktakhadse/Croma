@@ -1,0 +1,158 @@
+body{
+    background-color:black;
+    color:white;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+#add{
+    width:100%;
+}
+#add2{
+    width:70%;
+    margin-top: 10px;
+}
+#info{
+    display:flex;
+    height:300px;
+    width:90%;
+    margin:auto;
+    
+}
+#info>div{
+    height:290px;
+    width:45%;
+    background-color: whitesmoke;
+    margin:auto;
+    border-radius:15px;
+    display:flex;
+    line-height:25px;
+    
+}
+#left,#right{
+    height:230px;
+    width:40%;
+    margin:auto;
+    color:black;
+}
+#price{
+    display:flex;
+    height:50px;
+    width:90%;
+    border:1px solid black;
+    border-left: none;
+    border-right: none;
+    justify-content: space-between;
+}
+#price>h3{
+    margin:auto;
+}
+#type{
+    height:250px;
+    width:95%;
+    display:flex;
+    margin:auto;
+    margin-top:10px;
+}
+#type>div{
+    height:230px;
+    width:30%;
+    background-color:paleturquoise;
+    color:black;
+    margin-right:10px;
+    text-align: center;
+    border-radius:15px;
+    line-height:25px;
+}
+#inch{
+    width:95%;
+    display:flex;
+    margin:auto;
+    margin-top:10px;
+}
+#inch>div{
+    height:auto;
+    width:25%;
+    margin-right:10px;
+}
+.carousel-cell {
+    width: 30%;
+}
+.carousel-cell:before {
+      display:block;
+}
+.carousel{
+    width:90%;
+    margin:auto;
+}
+#rate
+{
+    display:flex;
+    height:50px;
+    width:90%;
+    justify-content:space-evenly;
+    margin:auto;
+}
+#category{
+    display:flex;
+    height:140px;
+    width:90%;
+    margin:auto;
+    margin-top:25px;
+}
+#category>div{
+    height:130px;
+    width:35%;
+    border-radius: 15px;
+    background-color:darkcyan;
+    margin:auto;
+    margin-right:10px;
+    color:white;
+    text-align:center;
+    line-height:13px;
+}
+#brand{
+    display:flex;
+    height:100px;
+    width:90%;
+    margin:auto;
+}
+#brand>div{
+    height:100px;
+    width:35%;
+    border-radius: 10px;
+    margin-right:10px;
+    background-color:white;
+    margin-top:15px;
+
+}
+#products{
+    display:flex;
+    height:170px;
+    width:90%;
+    margin:auto;
+    margin-top:25px;
+}
+#products>div{
+    display:flex;
+    height:167px;
+    width:90%;
+    margin:auto;
+    margin-right:10px;
+}
+#paragraph{
+    width:90%;
+    height:auto;
+    margin:auto;
+}
+#butt{
+    height:50px;
+    width:30%;
+    background-color:aquamarine;
+    border-radius:10px;
+    margin:auto;
+    justify-content:center;
+}
+.inner{
+    height:450px;
+    width:280px;
+    background-color:#1E1E1E; 
+}
