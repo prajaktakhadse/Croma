@@ -14,7 +14,7 @@ Github ripository : https://github.com/abhinavBisht94/croma-clone-web16-u3
 
 Github hosted website link : https://abhinavbisht94.github.io/croma-clone-web16-u3/
 
-Netlify : https://croma-construct-w2-ftweb16.netlify.app/
+Netlify :[ https://croma-construct-w2-ftweb16.netlify.app/](https://spiffy-liger-7d94fc.netlify.app/)
 
 </p>
 
